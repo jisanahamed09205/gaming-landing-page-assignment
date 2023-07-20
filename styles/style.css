@@ -124,7 +124,6 @@ nav{
     max-width:1200px ;
     display: grid;
     margin: 50px auto 0;
-    /* min-height: 400px; */
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 }
@@ -133,15 +132,11 @@ nav{
     position: relative;
 }
 .single-cart img{
-    /* width: 70%; */
     width: 100%;
     display: block;
     margin:0 auto;
 }
 .single-cart p{
-    /* margin: 0 auto;
-    display: block;
-    width: 70%; */
     font-size: 20px;
     font-weight: 500;
 }
@@ -394,7 +389,7 @@ footer {
     }
     .banner-text, .banner-img{
         width: 100%;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     .banner-text h1{
         font-size: 50px;
